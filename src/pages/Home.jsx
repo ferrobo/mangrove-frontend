@@ -116,7 +116,7 @@ export default function Home() {
 
         {/* Scroll indicator — absolutely positioned bottom-center, never overlaps CTAs */}
         <motion.div
-          className="pointer-events-none absolute bottom-6 left-1/2 z-10 -translate-x-1/2"
+          className="pointer-events-none absolute bottom-2 left-1/2 z-10 -translate-x-1/2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.6, duration: 0.8 }}
